@@ -1,0 +1,499 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+.contenedor-form .logo .logo-caption {
+    font-family: 'Poiret One', cursive;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.contenedor-form .logo .tweak {
+    color: #ff5252;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+
+
+html{
+	font-size: 12.5px;
+    font-family: monospace;
+}
+
+/*Estilos de la barra de navegacion*/
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+    color: rgba(86, 255, 147, 0.9);
+}
+.bg-dark {
+    background: rgba(0,0,0,.9) !important;
+}
+
+
+/*Estilo del header*/
+.fondo {
+    background-image: url('../img/yerba-mate.jpg');
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.centrar{
+    margin: auto;
+}
+.fondo h1 {
+    color: #fcfcf6;
+    text-shadow:  3px 2px 4px black;
+
+}
+
+.fondo h5 {
+    color: #fff;
+    text-shadow:   -1px -1px 2px black;
+
+}
+
+/*Tamaño de letra del titulo y subtitulo del header*/
+@media screen and (max-width: 770px){
+    .fondo h1{
+        font-size: 2rem;
+    }
+    .fondo h5{
+        font-size: 1rem;
+    }
+    .mi_contenedor h1 {
+        font-size: 2rem;
+    }
+    .mi_contenedor p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .fondo h1{
+        font-size: 1.5rem;
+    }
+    .mi_contenedor h1 {
+        font-size: 1.5rem;
+    }
+    .mi_contenedor p {
+        font-size: 0.9rem;
+    }
+    .fondo h5{
+        font-size: 0.9rem;
+    }
+}
+
+/*Tamaño de letra del titulo y del contenido del Body*/
+@media screen and (max-width: 827px){
+    .jumbotron h1{
+        font-size: 2.5rem;
+    } 
+    .jumbotron p{
+        font-size: 1.2rem;
+    }   
+}
+
+@media screen and (max-width: 470px){
+    .jumbotron h1{
+        font-size: 1.9rem;
+    }
+    .jumbotron p{
+        font-size: 0.9rem;
+    } 
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #e9ecef7d;
+}
+
+
+
+footer {
+    background: rgba(0,0,0,.9) !important;
+    
+}
+
+/*Estilo del Copyright */
+.copyright {
+    color: #44484c;
+}
+
+/*Estilos de Arana&Hijos del footer*/
+.navbar-brand {
+    color: rgb(255, 255, 255, 0.61);    
+}
+.navbar-brand:hover{
+    color: rgba(86, 255, 147, 0.9);
+}
+
+/*Estilo de los links del footer*/
+.row-footer .nav-item a {
+    color: #545b62;
+}
+
+.row-footer .nav-item a:hover {
+    color: rgba(86, 255, 147, 0.9);
+}
+
+/*Estilos de la barra de las Redes Sociales*/    
+.caja-redes {
+    
+    padding: 1px;
+    position: relative;
+    width: 245px;
+   
+}
+.caja-redes a {
+    text-align: center;    
+}
+
+.icon-button {
+    background-color: white;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    height: 3em;
+    line-height: 3em;
+    margin: 0 3px;
+    position: relative;
+    width: 3em;
+}
+.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+}
+.icon-button:hover span {
+    width: 3em;
+    height: 3em;
+    border-radius: 3em;
+    margin: -1.5em;
+}
+.youtube span {
+    background-color: #ff0000;
+}
+.instagram span {
+    background-color: #FF6400;
+}
+.twitter span {
+    background-color: #4099ff;
+}
+.facebook span {
+    background-color: #3B5998;
+}
+
+/* Iconos */
+.icon-button i {
+    background: none;
+    color: white;
+    left: 0;
+    line-height: 3em;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 3em;
+    z-index: 2;
+}
+.icon-button .icon-youtube {
+    color: #ff0000;
+}
+.icon-button .icon-instagram {
+    color: #FF6400;
+}
+.icon-button .icon-twitter {
+    color: #4099ff;
+}
+.icon-button .icon-facebook {
+    color: #3B5998;
+}
+
+.icon-button:hover .icon-youtube, .icon-button:hover .icon-instagram, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook{
+    color: white;
+}
+
+h3 {
+     text-align:center;
+     margin-top:15px;
+}
+
+p {
+    text-align: justify;
+}    
+
+.terminos_y_usos{
+    background-color: #e9ecef;
+    margin: 1rem 0rem 0rem 0rem;    
+    border-radius: 0.3rem;
+    padding: 4rem 2rem;
+}
+
+body {
+    position: relative;  
+    background-image: url('../img/fondo1.jpg');    
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+
+}
+
+
+
+
+.scrollspy2 {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+    padding: 1.5rem 1.5rem;
+    background-color: #e9ecef7d;
+
+}
+
+
+
+.contenido_comer{
+    background-color: #e9ecef7d;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2em 2rem;
+    
+     border-radius: 0.3rem;
+     text-align: justify;
+}
+
+.contenido_contactos{
+    background-color: #e9ecef;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2em 2rem;
+    border-radius: 0.3rem;
+}
+
+.mi_contenedor{
+    background-color:#e9ecef70;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2em 2rem;
+    border-radius: 0.3rem;
+}
+
+.mi-descripcion{
+     background-color: #e9ecef;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2em 2rem;
+    border-radius: 0.3rem;
+}
+
+.contenedor-2{
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2em 2rem;
+    border-radius: 0.3rem;
+}
+
+.banner {
+    background-image: url('../img/banner.jpg');
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.mensaje_error {
+    padding-top: 2px;
+    color: #DD2727;
+}
+
+.contenedor-form {
+    position: relative;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    max-width: 500px;
+    margin: 48px auto;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.contenedor-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20.5px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.contenedor-form input {
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border-bottom: 4px solid #28a745;
+    font-size: 14px;
+    transition: all .5s ease;
+}
+
+.contenedor-form input:hover {
+    border-bottom: 4px solid #0075d9;
+}
+
+.contenedor-form .reset-password {
+    text-decoration: none;
+    font-size: 13.3px;
+}
+
+.contenedor-form textarea {
+     background: rgba(0,0,0,.5);
+    color: #fff;
+    border-bottom: 4px solid #28a745;
+    font-size: 14px;
+    transition: all .5s ease;
+}
+
+.contenedor-form textarea:hover {
+     border-bottom: 4px solid #0075d9;
+}
+
+
+/*Estilos de la galeria de productos*/
+.galeria_img {
+    width: 18rem;
+    height: 200px;    
+    object-fit: cover;
+    filter: brightness(70%); 
+    cursor: pointer;
+    
+}
+
+.galeria_img:hover {
+    filter: brightness(100%);
+    animation: escalar 1s infinite alternate;
+}
+
+@keyframes escalar {
+    to {
+        transform: scale(0.96);
+    }
+    from {
+        transform: scale(1);
+    }
+}
+
+.card_galeria {
+    background-color: rgba(0,0,0,.47);
+    width: 18rem;
+}
+
+@media (min-width: 480px) {
+    .card .card_galeria {
+    width: 25%;
+    margin: 5px;   
+    }
+}
+
+@media (min-width: 768px) {
+    .card .card_galeria {
+    width: 50%;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .card .card_galeria{
+    width: 22%;     
+    }
+}
+
+.modal_contenedor {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal_img {
+    width: 50%;
+    max-height: 650px;
+    max-width: 400px;
+}
+
+.modal_boton {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    background: red;
+    border-radius: 50%; 
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;  
+}
+
+ul.pagination {   
+    padding: 0;
+    margin-top: 50px;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    
+    transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+
+.pagination li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
